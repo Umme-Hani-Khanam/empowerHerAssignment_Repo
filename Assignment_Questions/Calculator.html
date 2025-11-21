@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            border:1px;
+            gap:20px;
+            margin:auto;
+            padding:10px;
+            width:50%;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            
+        }
+        .num{
+            display: grid;
+            grid-template-columns: repeat(4,120px);
+            gap:10px;
+            text-align: center;
+            justify-content: center;
+            font-weight: bolder;
+            font-size: larger;
+            border:20px;
+            padding:10px;
+            margin:auto;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; }
+            .first{
+                margin:auto;
+                box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+                border:10px;
+                border-radius: 2px;
+                width:80%;
+                height:100px;
+            
+            }
+
+        .num>div{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            width:100px;
+            height:70px;
+            border-radius: 10px;
+            padding:10px;
+            text-align: center;
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1 style="color:cadetblue; text-align: center; margin: auto; font-weight: bold;">Masai Calculator</h1>
+    <br><br>
+    <div class="container">
+        <div class="first"> 
+            <div></div>
+        </div>
+        <div class="num">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>+</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>-</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>x</div>
+            <div>C</div>
+            <div>0</div>
+            <div>=</div>
+            <div>/</div>
+        </div>
+    </div>
+</body>
+</html>
