@@ -1,2 +1,5 @@
-let sqrCube=(num)=>({square:num*num ,cube:num*num*num}) ;
+let sqrCube=(nums)=>({
+    square:nums*nums ,
+    cube:nums*nums*nums
+}) ;
 console.log(sqrCube(5));
