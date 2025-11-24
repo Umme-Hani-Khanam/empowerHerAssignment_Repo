@@ -15,7 +15,7 @@ const people = [
   }
 ];
 
-const result = people.map(({name:nameofperson, address: {city, street: { name: streetName } } }) =>
+let result = people.map(({name:nameofperson, address: {city, street: { name: streetName } } }) =>
   `${nameofperson} lives in ${city} on ${streetName}`
 );
 
