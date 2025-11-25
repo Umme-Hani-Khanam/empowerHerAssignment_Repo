@@ -9,4 +9,4 @@ function changeAge(){//updates age
   age=age+2;
   console.log(age);//print updated age
 }
-changeAge();
+changeAge();//calls changeAge function
