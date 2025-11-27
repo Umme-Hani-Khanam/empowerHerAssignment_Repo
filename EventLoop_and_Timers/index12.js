@@ -1,2 +1,5 @@
 console.log("Message 1");
-cons
+setTimeout(()=>{
+    console.log("Message 2 after 2 seconds")
+},2000);//delay of 2seconds
+console.log("Message 3")
