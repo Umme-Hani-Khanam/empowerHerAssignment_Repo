@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    
+</head>
+<body>
+    <h1 id="h">Hello world</h1>
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae laudantium molestiae alias molestias obcaecati quidem ipsa saepe harum, </p>
+    <p>voluptatum autem quia earum, vero vitae beatae. Aspernatur est quae fugit quas!</p>
+    <div class="container">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi eaque nemo expedita ad odit corporis quaerat deserunt placeat harum cupiditate consectetur optio enim adipisci illum commodi, nesciunt cumque, reprehenderit facere?</div>
+<script>
+document.getElementById("h").innerHTML="Welcome to the DOM World!";
+const ps=document.getElementsByTagName("p");
+for(let i=0;i<ps.length;i++)
+{
+    ps[i].style.color="blue";
+}
+document.querySelector(".container").style.backgroundColor="yellow";
+
+</script>
+</body>
+</html>
