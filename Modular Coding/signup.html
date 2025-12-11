@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <div id="navbar"></div>
+    <h2>Signup</h2>
+    <form id="form">
+        <input type="text" id="name" placeholder="Enter Name" required/>
+        <br>
+        <input type="email" id="email" placeholder="Enter email" required/>
+        <br>
+        <input type="password" id="password" placeholder="Enter password"/>
+        <br>
+        <button type="submit">Signup</button>
+    </form>
+    <div id="footer"></div>
+    <script type="module">
+        import {navbar} from "./navbar.js";
+        import {footer} from "./footer.js";
+        import "./signup.js";
+        document.getElementById("navbar").innerHTML=navbar();
+        document.getElementById("footer").innerHTML=footer();
+
+    </script>
+</body>
+</html>
